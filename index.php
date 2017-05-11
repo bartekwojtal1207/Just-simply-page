@@ -60,9 +60,9 @@
       <section class="form_section">
         <div class="contact_section">
           <h3>Contact us</h3>
-          <form class="main_form" action="post.php" method="POST">
+          <form class="main_form" action="post.php" method="post">
             <input type="text" name="mess" value="your message"  >
-            <input type="text" name="name" value="name" >
+            <input type="text" name="id_person" value="name" >
             <input type="email" name="email" value="email" >
             <input type="text" name="phone" value="phone" >
             <input type="submit" name="send_btn" value="send_message">
@@ -87,10 +87,10 @@
         </div>
         <div class="comunication">
           <div class="twitt icon">
-            <a href="#"><img src="img/twitt.jpg" alt="twitter_icon"></a>
+            <a href="https://twitter.com/account/access"><img src="img/twitt.jpg" alt="twitter_icon"></a>
           </div>
           <div class="face icon">
-            <a href="#"><img src="img/face_icon.png" alt="face_icon"></a>
+            <a href="https://www.facebook.com/"><img src="img/face_icon.png" alt="face_icon"></a>
           </div>
         </div>
         <div class="footer_text">

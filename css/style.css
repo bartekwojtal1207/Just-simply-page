@@ -123,7 +123,8 @@ header {
     line-height: 1;
     text-align: left;
     float: left;
-    margin-top: 1em; }
+    margin-top: 1em;
+    padding-left: 1em; }
   .form_section input[name="mess"] {
     height: 10.6em;
     float: right; }
@@ -209,3 +210,6 @@ footer {
   left: 140.916px;
   top: 1132px;
   z-index: 54; }
+
+.resume_form p {
+  display: inline-block; }
