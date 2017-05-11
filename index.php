@@ -9,6 +9,8 @@
     <link rel="stylesheet" href="css/style.css">
     <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="  crossorigin="anonymous">
     </script>
+    <script src="js/jquery.color.js">
+    </script>
     <script type="text/javascript" src="js/script.js">
     </script>
   </head>
@@ -25,32 +27,32 @@
       </nav>
       <header>
         <h1>This is just a sample page</h1>
-        <button type="button" name="button">push the button</button>
+        <button type="button" name="button" >push the button</button>
       </header>
       <section class="main_section">
           <div class="paragraph_list">
               <div class="paragraph">
                 <h3>A heading title</h3>
                 <img src="img/image1.jpg" alt="obraz">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec quis felis fermentum, dictum odio ut.</p>
+                <p>Lorem <span class="color_red">ipsum</span> dolor sit amet, consectetur adipiscing elit. Donec quis felis fermentum, dictum odio ut.</p>
                 <br>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce eget ex nulla. Integer ullamcorper nibh lorem, ut porttitor mi sagittis eget. Aenean malesuada mattis justo, sed efficitur nisl fringilla eget. Integer a mi quis lectus vulputate tempus quis quis dui. Mauris suscipit euismod urna, eget feugiat tellus imperdiet vitae. Vestibulum.</p>
+                <p>Lorem <span class="color_red">ipsum</span> dolor sit amet, consectetur adipiscing elit. Fusce eget ex nulla. Integer ullamcorper nibh lorem, ut porttitor mi sagittis eget. Aenean malesuada mattis justo, sed efficitur nisl fringilla eget. <span class="hide_text">Integer a mi quis lectus vulputate tempus quis quis dui. Mauris suscipit euismod urna, eget feugiat tellus imperdiet vitae. Vestibulum.</span></p>
                 <a href="#" class="show_more">-  read more</a>
               </div>
               <div class="paragraph">
                 <h3>A much longer heading title</h3>
                 <img src="img/image1.jpg" alt="obraz">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec quis felis fermentum, dictum odio ut.</p>
+                <p>Lorem <span class="color_red">ipsum</span> dolor sit amet, consectetur adipiscing elit. Donec quis felis fermentum, dictum odio ut.</p>
                 <br>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce eget ex nulla. Integer ullamcorper nibh lorem, ut porttitor mi sagittis eget. Aenean malesuada mattis justo, sed efficitur nisl fringilla eget. <!--Integer a mi quis lectus vulputate tempus quis quis dui. Mauris suscipit euismod urna, eget feugiat tellus imperdiet vitae. Vestibulum.--></p>
+                <p class="seccond_text">Lorem <span class="color_red">ipsum</span> dolor sit amet, consectetur adipiscing elit. Fusce eget ex nulla. Integer ullamcorper nibh lorem, ut porttitor mi sagittis eget. Aenean malesuada mattis justo, sed efficitur nisl fringilla eget.<span class="hide_text"> Integer a mi quis lectus vulputate tempus quis quis dui. Mauris suscipit euismod urna, eget feugiat tellus imperdiet vitae. Vestibulum.</span></p>
                   <a href="#"  class="show_more" style="padding-top: 1em;" > -  read more</a>
               </div>
               <div class="paragraph">
                 <h3>A heading title</h3>
                 <img src="img/image1.jpg" alt="obraz">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec quis felis fermentum, dictum odio ut.</p>
+                <p>Lorem <span class="color_red">ipsum</span> dolor sit amet, consectetur adipiscing elit. Donec quis felis fermentum, dictum odio ut.</p>
                 <br>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce eget ex nulla. Integer ullamcorper nibh lorem, ut porttitor mi sagittis eget. Aenean malesuada mattis justo, sed efficitur nisl fringilla eget. Integer a mi quis lectus vulputate tempus quis quis dui. Mauris suscipit euismod urna, eget feugiat tellus imperdiet vitae. Vestibulum.</p>
+                <p>Lorem <span class="color_red">ipsum</span> dolor sit amet, consectetur adipiscing elit. Fusce eget ex nulla. Integer ullamcorper nibh lorem, ut porttitor mi sagittis eget. Aenean malesuada mattis justo, sed efficitur nisl fringilla eget. <span class="hide_text">Integer a mi quis lectus vulputate tempus quis quis dui. Mauris suscipit euismod urna, eget feugiat tellus imperdiet vitae. Vestibulum.</span></p>
                 <a href="#" class="show_more">-  read more</a>
               </div>
           </div>
@@ -58,7 +60,7 @@
       <section class="form_section">
         <div class="contact_section">
           <h3>Contact us</h3>
-          <form class="main_form" action="index.html" method="post">
+          <form class="main_form" action="post.php" method="POST">
             <input type="text" name="mess" value="your message"  >
             <input type="text" name="name" value="name" >
             <input type="email" name="email" value="email" >

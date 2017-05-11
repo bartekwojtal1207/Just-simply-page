@@ -95,8 +95,15 @@ header{
       margin-bottom: 0em;
     }
     p:last-of-type{
+      height: 11em;
       display: block;
       margin-top: 0em;
+    }
+    p.seccond_text{
+      height: 7.7em;
+    }
+    .hide_text{
+      display: none;
     }
     .show_more{
       display: block;
@@ -108,11 +115,8 @@ header{
     .show_more:nth-of-type(2n+0){
       padding-bottom: 1em;
     }
-    // .show_more:nth{
-    //   margin-top: 3.4em;
-    // }
-    // .show_more:last-of-type{
-    //   margin-top: 3.4em;
+    // .color_red{
+    //   color: red;
     // }
   }
 
@@ -202,6 +206,9 @@ input[name="send_btn"]{
     height: 2.5em;
     border-radius: 7px;
     line-height: 2em;
+    &:hover{
+      cursor: pointer;
+    }
     a{
       text-decoration: none;
       color: white;

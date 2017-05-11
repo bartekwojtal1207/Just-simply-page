@@ -78,8 +78,13 @@ header {
       text-align: justify;
       margin-bottom: 0em; }
     .main_section .paragraph p:last-of-type {
+      height: 11em;
       display: block;
       margin-top: 0em; }
+    .main_section .paragraph p.seccond_text {
+      height: 7.7em; }
+    .main_section .paragraph .hide_text {
+      display: none; }
     .main_section .paragraph .show_more {
       display: block;
       text-align: right;
@@ -149,6 +154,8 @@ header {
     height: 2.5em;
     border-radius: 7px;
     line-height: 2em; }
+    .form_section .back_top:hover {
+      cursor: pointer; }
     .form_section .back_top a {
       text-decoration: none;
       color: white; }
