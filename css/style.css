@@ -2,7 +2,8 @@ body {
   margin: 0em; }
 
 .container {
-  width: 100%; }
+  width: 100%;
+  margin: auto; }
 
 nav {
   width: 100%;
@@ -102,7 +103,7 @@ header {
     text-align: center;
     font-size: 3em; }
   .form_section .contact_section {
-    width: 70%;
+    width: 75%;
     height: 25em;
     margin: auto;
     text-align: center;
@@ -200,16 +201,7 @@ footer {
     display: inline-block;
     text-align: center; }
 
-.name {
-  font-size: 18px;
-  font-family: "OpenSans";
-  color: #d1d1d1;
-  line-height: 1;
-  text-align: left;
-  position: absolute;
-  left: 140.916px;
-  top: 1132px;
-  z-index: 54; }
-
-.resume_form p {
-  display: inline-block; }
+.resume_form {
+  padding-left: 1em; }
+  .resume_form p {
+    display: inline-block; }

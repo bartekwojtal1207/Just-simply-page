@@ -7,6 +7,7 @@
     <meta name="keywords" content="sample, page">
     <title>Sample page</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="cssRwd/styleRwd.css">
     <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="  crossorigin="anonymous">
     </script>
     <script src="js/jquery.color.js">
@@ -60,7 +61,7 @@
       <section class="form_section">
         <div class="contact_section">
           <h3>Contact us</h3>
-          <form class="main_form" action="post.php" method="post">
+          <form class="main_form"  method="post">
             <input type="text" name="mess" value="your message"  >
             <input type="text" name="id_person" value="name" >
             <input type="email" name="email" value="email" >
@@ -87,7 +88,7 @@
         </div>
         <div class="comunication">
           <div class="twitt icon">
-            <a href="https://twitter.com/account/access"><img src="img/twitt.jpg" alt="twitter_icon"></a>
+            <a href="https://twitter.com/"><img src="img/twitt.jpg" alt="twitter_icon"></a>
           </div>
           <div class="face icon">
             <a href="https://www.facebook.com/"><img src="img/face_icon.png" alt="face_icon"></a>
