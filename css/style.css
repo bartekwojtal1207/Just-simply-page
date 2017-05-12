@@ -1,5 +1,6 @@
 body {
-  margin: 0em; }
+  margin: 0em;
+  font-family: 'Open Sans', sans-serif; }
 
 .container {
   width: 100%;
@@ -199,7 +200,8 @@ footer {
   footer .footer_text {
     width: 30%;
     display: inline-block;
-    text-align: center; }
+    text-align: center;
+    line-height: 5em; }
 
 .resume_form {
   padding-left: 1em; }

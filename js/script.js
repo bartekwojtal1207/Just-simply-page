@@ -16,7 +16,7 @@ $(document).ready(function(){
 
     event.preventDefault();
     var show_text = $(this).prev().children("span.hide_text");
-    $(this).css("margin-top","1em");
+    $(this).css("margin-top","5em");
     show_text.fadeToggle(1000);
   });
 // JS 2
@@ -37,7 +37,7 @@ var red_ipsum = (".color_red");
 
 $(".main_form").on("submit",function(event) {
     event.preventDefault();
-  
+
     var name = $("input[name='id_person']").val();
     var email = $("input[name='email']").val();
     var phone = $("input[name='phone']").val();

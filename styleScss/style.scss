@@ -3,9 +3,13 @@ $border-section : .1em solid #e5e5e5;
 
 body{
   margin: 0em;
+  font-family: 'Open Sans', sans-serif;
+
 }
+
 .container{
   width: 100%;
+  margin: auto;
 }
 nav{
   width: 100%;
@@ -131,7 +135,7 @@ header{
     //padding-top: 1em;
   }
   .contact_section{
-    width: 70%;
+    width: 75%;
     height: 25em;
     margin: auto;
     text-align: center;
@@ -262,31 +266,21 @@ footer{
       img{
         margin-top: .7em;
       }
-
     }
   }
   .footer_text{
     width: 30%;
     display: inline-block;
     text-align: center;
+    line-height: 5em;
   }
 }// end of footer
 
 //
-.name {
-  font-size: 18px;
-  font-family: "OpenSans";
-  color: rgb(209, 209, 209);
-  line-height: 1;
-  text-align: left;
-  position: absolute;
-  left: 140.916px;
-  top: 1132px;
-  z-index: 54;
-}
+
 /// post php
 .resume_form{
-
+padding-left: 1em;
   p{
     display: inline-block;
 
