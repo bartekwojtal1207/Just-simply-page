@@ -1,0 +1,6 @@
+Witam wszystkie zadania rozwiązane z wyjątkiem tego pierwszego z php (niezrozumiałem dokładnie polecenia);
+- niektore zadania, można było rozwiązac na kilka sposobow(np to z kolorwaniem słowa ipsum(mozna było zrobic wyszukiwanie slowa w php))jednak staralem sie zrobic to najprostrzymi sposobami
+- niedkonca wyszlo mi rowniez z ta funckja z showFormData; uzylem sposobu "serialize" w ajaxie zamiast tego;
+- rwd nie jest zrobione z dokladnoscia do jednego px ale ogolny zarys jest trzeba by tylko troszke dopracowac
+- w walidacji formularza wymygany jest poprawny adres mail i telefon musi miec 9 znakow(na razie moga byc to tez litery co wiem ze jest na razie bledem) inaczej dane sie nie wyswietla
+- odnosnie czasu spedzonego przy zadaniach to bylo na pewno okolo 8 godzin :-) mialem maly problem z ajaxem ale udalo sie go rozwiazac :-)
